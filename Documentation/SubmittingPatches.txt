@@ -1,25 +1,24 @@
 
-	How to Get Your Change Into the Ascii Arts
+                               	How to Get Your Change Into the Ascii Arts
 
 
-If you do not have a repository with the current  source handy, use
-git to obtain one.  You'll want to start with the mainline repository,
-which can be grabbed with:
+If you do not have a repository with the current source handy: use git to obtain one.
 
-  git clone https://github.com/oddcoder/Ascii-Arts.git 
+You'll want to start with the mainline repository which can be grabbed with git clone:
 
-it is alwayes recommended to create your changes a branch other than main
-branch. You can create new branch using the git command:
+https://github.com/oddcoder/Ascii-Arts.git 
 
+It is always recommended to create your changes a branch other than main branch.
 
-git branch branch_name
+You can create new branch using the git command: git branch branch_name
 
-once you have created your branch you can switch to it with git command: 
-git checkout branch_name
-now you can ceate your changes to your branch
-once you finish you can get a patch file with this command
-git format-patch master..branch_name
+Once you have created your branch you can switch to it with git command: git checkout branch_name
+
+Now you can create your changes to your branch
+
+Once you finish you can get a patch file with this command: git format-patch master..branch_name
 and you got your patch!
-now you can send it in email to ahmedsoliman0x666<at>gmail.com
-it will take up to 15 days to get your patch applied you got no response
-please send the patch again.
+
+Now you can send it in email to (ahmedsoliman0x666@gmail.com)
+It will take up to 15 days to get your patch applied 
+In case you got no response : please send the patch again.
